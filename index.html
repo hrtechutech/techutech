@@ -22,7 +22,36 @@
   <!--========================================================
                           HEADER
   =========================================================-->
-  <header>
+  <header style="height: 10rem;">
+	  
+	  
+	  
+	  
+	  <!-- Top-Bar START -->
+<div id="top-bar" class="hidden-md-down">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9 col-9">
+				<ul class="top-bar-info">				 
+					<li><i class="fab fa-whatsapp"></i><a href="https://wa.me/+918139888383">+91 8139888383</a></li>
+					<li><i class="fas fa-phone-square"></i><a href="tel:+91 8139888383"> +91 8139888383, +91 8891838373</a></li>
+					<li><i class="fa fa-envelope"></i><a href="mailto:info@techutech.in">info@techutech.in</a></li>
+				</ul>					
+			</div>
+			<div class="col-md-3 col-3" style="margin-top:10px">
+<!--
+				<span class="down"><i class="fa fa-download" aria-hidden="true"></i><a href="Easycode360-Brochure.pdf" download="">Download Brochure</a></span>
+				<span class="down"><a href="#enquireform" data-toggle="modal" data-wow-delay="0.3s">Enquire Now</a></span>						
+-->
+			</div>		
+		</div>
+	</div>
+</div>	
+<!-- Top-Bar END -->
+	  
+	  
+	  
+	  
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-lg-2">
@@ -52,10 +81,12 @@
         <div class="col-md-4 col-lg-2">
           <div class="social-icon">
             <ul>
-              <li><a href="#"><i class="ti-instagram"></i></a></li>
-              <li><a href="#"><i class="ti-facebook"></i></a></li>
+              <li><a href="https://www.instagram.com/techutechpvtltd/" target="_blank"><i class="ti-instagram"></i></a></li>
+              <li><a href="https://www.facebook.com/techutechpvtltd/" target="_blank"><i class="ti-facebook"></i></a></li>
+<!--
               <li><a href="#"><i class="ti-google"></i></a></li>
               <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
+-->
               
             </ul>
           </div>
@@ -419,6 +450,137 @@
   <div id="toTop">
     <i class="ti-arrow-up"></i>
   </div>
+
+
+
+<style>
+
+
+	
+
+/*-----------------------------------------
+38. Top-Bar Styles
+-------------------------------------------*/
+/*--- Style 1 ---*/
+#top-bar{
+	position: relative;
+	z-index: 99999;
+	background: #fff;
+	border-bottom: 1px solid #eee;
+}
+.top-bar-info {
+	padding: 0px;
+}
+.top-bar-info li{
+	font-size: 13px;
+	font-weight: 500;
+	color: #525252;
+	border-left: 1px solid #eee;
+	list-style-type: none;
+	float: left;
+	margin: 0px;
+	padding: 13.5px 14px 12.5px 14px;
+}
+.top-bar-info li i{
+	font-size: 15px;
+	color: #999;
+	padding-right: 8px;
+}
+
+.social-icons{
+	padding: 0px;
+	float: right;
+	margin: 0px;
+}
+.social-icons li{
+	font-size: 14px;
+	list-style-type: none;
+	float: left;
+	width: 50px;
+	text-align: center;
+	border-left: 1px solid #eee;
+	margin: 0px;
+	padding: 12px;	
+}
+.social-icons li:last-child{
+	border-right: 1px solid #eee;
+}
+.social-icons li a{
+	color: royalblue;
+	-webkit-transition-duration: .3s;
+	transition-duration: .3s;	
+}
+.social-icons a:hover{
+	color: #2387ea;
+}
+
+
+/*--- Style 2 ---*/
+#top-bar-transparent{
+	position: relative;
+	z-index: 99999;
+	background: rgba(0, 0, 0, .2);
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+#top-bar-transparent .top-bar-info {
+	padding: 0px;
+}
+#top-bar-transparent .top-bar-info li{
+	font-size: 13px;
+	font-weight: 500;
+	color: #aaa;
+	border-left: 1px solid rgba(255, 255, 255, .1);
+	list-style-type: none;
+	float: left;
+	margin: 0px;
+	padding: 13.5px 14px 12.5px 14px;
+}
+#top-bar-transparent .top-bar-info li i{
+	font-size: 15px;
+	color: #999;
+	padding-right: 8px;
+}
+
+#top-bar-transparent .social-icons{
+	padding: 0px;
+	float: right;
+	margin: 0px;
+}
+#top-bar-transparent .social-icons li{
+	font-size: 14px;
+	list-style-type: none;
+	float: left;
+	width: 50px;
+	text-align: center;
+	border-left: 1px solid rgba(255, 255, 255, .1);
+	margin: 0px;
+	padding: 12px;	
+}
+#top-bar-transparent .social-icons li:last-child{
+	border-right: 1px solid rgba(255, 255, 255, .1);
+}
+#top-bar-transparent .social-icons li a{
+	color: #777;
+	-webkit-transition-duration: .3s;
+	transition-duration: .3s;	
+}
+#top-bar-transparent .social-icons a:hover{
+	color: #2387ea;
+}
+
+.down {
+    font-size: 14px;
+   margin-top: 10px;
+    border: 1px solid #525252;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+
+</style>
+
+
+
 
   <!-- js -->
   <script src="assets/js/jquery-3.3.1.min.js"></script>
